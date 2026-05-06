@@ -1,16 +1,118 @@
-# React + Vite
+# 🌤️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather application built using **React** that fetches real-time weather data using the **OpenWeather API**. Users can search for any city and view temperature, humidity, and weather conditions in a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search weather by city name
+* 🌡️ Real-time temperature display
+* 💧 Humidity & feels-like temperature
+* 📉 Min & Max temperature
+* 🌥️ Weather condition description
+* 🎨 Clean and responsive UI
+* ⚡ Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React (Vite)**
+* **JavaScript (ES6+)**
+* **Material UI**
+* **OpenWeather API**
+* **CSS**
+
+---
+
+## 📸 Screenshot
+
+![App Screenshot](./screenshot.png)
+
+> *(Make sure your screenshot file is named `screenshot.png` and placed in root folder)*
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/shanusingh01/react-weather-app.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd react-weather-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 API Setup
+
+* Get your API key from: https://openweathermap.org/api
+* Replace your API key in `SearchBox.jsx`:
+
+```js
+const API_KEY = "your_api_key_here";
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── App.jsx
+│── WeatherApp.jsx
+│── SearchBox.jsx
+│── InfoBox.jsx
+│── App.css
+│── index.css
+```
+
+---
+
+## 💡 Future Improvements
+
+* 🌍 Add geolocation support
+* 📅 5-day forecast
+* 🌙 Dark/Light mode toggle
+* ❌ Error handling for invalid city
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+👉 Give it a ⭐ on GitHub
+👉 Share it with others
+
+---
+
+
+## 📜 License
+
+This project is open-source and free to use.
