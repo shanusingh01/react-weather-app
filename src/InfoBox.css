@@ -1,0 +1,14 @@
+.InfoBox{
+    text-align: center;
+    
+}
+
+.CardContainer{
+    display:flex;
+    justify-content: center;
+    color:black;
+}
+
+.CardContent{
+    color:black;
+}
